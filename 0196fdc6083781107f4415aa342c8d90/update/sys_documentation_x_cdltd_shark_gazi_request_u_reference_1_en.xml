@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_reference_1" label="New Reference" language="en" table="x_cdltd_shark_gazi_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_1</element>
+            <help/>
+            <hint/>
+            <label>New Reference</label>
+            <language>en</language>
+            <name>x_cdltd_shark_gazi_request</name>
+            <plural>New References</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 20:53:53</sys_created_on>
+            <sys_id>4f0b864608b781107f4415aa342c8d63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Reference</sys_name>
+            <sys_package display_value="Shark gazing" source="x_cdltd_shark_gazi">0196fdc6083781107f4415aa342c8d90</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shark gazing">0196fdc6083781107f4415aa342c8d90</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_shark_gazi_request_u_reference_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 20:53:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

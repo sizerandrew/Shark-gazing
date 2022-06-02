@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Request" max_length="40" name="x_cdltd_shark_gazi_request" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="New Reference" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+    </element>
+</database>

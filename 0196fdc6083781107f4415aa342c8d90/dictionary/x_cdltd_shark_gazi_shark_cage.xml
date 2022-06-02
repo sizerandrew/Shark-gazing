@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Shark Cage" max_length="40" name="x_cdltd_shark_gazi_shark_cage" sizeclass="0" type="collection">
+        <element display="true" label="Cages in Stock" mandatory="true" max_length="40" name="cages_in_stock" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Material of Cage" mandatory="true" max_length="40" name="material_of_cage" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="aluminum" sequence="0" value="aluminum"/>
+                <element inactive="true" inactive_on_update="true" label="bones" sequence="1" value="bones"/>
+                <element inactive="true" inactive_on_update="true" label="steel" sequence="2" value="steel"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Divers per Cage" mandatory="true" max_length="40" name="number_of_divers_per_cage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="3" value="3"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Size" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Large" sequence="2" value="large"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

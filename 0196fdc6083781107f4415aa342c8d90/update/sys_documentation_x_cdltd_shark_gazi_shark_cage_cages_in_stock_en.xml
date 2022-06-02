@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cages_in_stock" label="Cages in Stock" language="en" table="x_cdltd_shark_gazi_shark_cage">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cages_in_stock</element>
+            <help/>
+            <hint/>
+            <label>Cages in Stock</label>
+            <language>en</language>
+            <name>x_cdltd_shark_gazi_shark_cage</name>
+            <plural>Cages in Stocks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-01 19:44:57</sys_created_on>
+            <sys_id>d14bfd46087781107f4415aa342c8d5f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Cages in Stock</sys_name>
+            <sys_package display_value="Shark gazing" source="x_cdltd_shark_gazi">0196fdc6083781107f4415aa342c8d90</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shark gazing">0196fdc6083781107f4415aa342c8d90</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_shark_gazi_shark_cage_cages_in_stock_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-01 20:06:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
